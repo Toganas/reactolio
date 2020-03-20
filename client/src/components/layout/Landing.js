@@ -3,8 +3,8 @@ import React from 'react'
 const Landing = () => {
     return (
         <div>
-            This is the Landing Page
-            Give information about myself
+            Teddy Brewer <br />
+            Full Stack Developer
         </div>
     )
 }
