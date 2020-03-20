@@ -1,15 +1,18 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 
 const Navbar = () => {
     return (
-        <Fragment>
+        <nav>
             <ul>
                 <li>
                     <h1>Teddy Brewer</h1>
                 </li>
+                <li>
+                    <h2>About</h2>
+                </li>
             </ul>
-            Navbar Here
-        </Fragment>
+            
+        </nav>
     )
 }
 
