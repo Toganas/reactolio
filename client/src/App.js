@@ -3,6 +3,7 @@ import Navbar from './components/layout/Navbar'
 import Landing from './components/layout/Landing'
 import About from './components/layout/About'
 import Projects from './components/layout/Projects'
+import Contact from './components/layout/Contact'
 import './App.css';
 
 const App = () => {
@@ -14,6 +15,7 @@ const App = () => {
         <Switch>
           <Route exact path="/about" component={About} />
           <Route exact path="/projects" component={Projects} />
+          <Route exact path="/contact" component={Contact} />
         </Switch>
       </Fragment>
     </Router>
