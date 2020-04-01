@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './components/layout/Navbar'
 import Landing from './components/layout/Landing'
 import About from './components/layout/About'
@@ -8,6 +9,7 @@ import Contact from './components/layout/Contact'
 import './App.css';
 
 const App = () => {
+
   return (
     <Router>
       <Fragment>
