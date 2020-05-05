@@ -7,8 +7,7 @@ const StyledSideNav = styled.div`
   position: fixed; 
   height: 100%;
   width: 75px;
-  z-index: 1;
-  top: 3.4em; 
+  z-index: 1; 
   background-color: #222;
   overflow-x: hidden;
 `;
